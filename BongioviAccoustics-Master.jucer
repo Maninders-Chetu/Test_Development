@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="M6CA1V" name="Profile Creator 2" projectType="guiapp" jucerVersion="5.4.3"
+              version="2.0.0.0">
+  <MAINGROUP id="g5s9ut" name="Profile Creator 2">
+    <GROUP id="{C295F08B-83CA-A2DD-0464-82C7BEF73189}" name="Source">
+      <GROUP id="{4542D004-CABB-96A3-CFF8-03043493C46B}" name="DPS COM">
+        <GROUP id="{2D83285D-06B0-7307-801D-C42A96C5A90D}" name="juce_serialport">
+          <FILE id="eviqog" name="juce_serialport.h" compile="0" resource="0"
+                file="Source/DPS COM/juce_serialport/juce_serialport.h"/>
+          <FILE id="rLtlTY" name="juce_serialport_OSX.cpp" compile="1" resource="0"
+                file="Source/DPS COM/juce_serialport/juce_serialport_OSX.cpp"/>
+          <FILE id="uhtCyJ" name="juce_serialport_Windows.cpp" compile="1" resource="0"
+                file="Source/DPS COM/juce_serialport/juce_serialport_Windows.cpp"/>
+        </GROUP>
+        <FILE id="CJYB5j" name="DpsComApi.cpp" compile="1" resource="0" file="Source/DPS COM/DpsComApi.cpp"/>
+        <FILE id="sS22sr" name="DpsComApi.h" compile="0" resource="0" file="Source/DPS COM/DpsComApi.h"/>
+        <FILE id="rghG3p" name="DpsComController.cpp" compile="1" resource="0"
+              file="Source/DPS COM/DpsComController.cpp"/>
+        <FILE id="hmTfqn" name="DpsComController.h" compile="0" resource="0"
+              file="Source/DPS COM/DpsComController.h"/>
+      </GROUP>
+      <GROUP id="{DC5BCDF9-0800-0E9A-7AA8-C785CB6F94A2}" name="UI Components">
+        <FILE id="Oa6JJv" name="TabSetting.cpp" compile="1" resource="0" file="TabSetting.cpp"/>
+        <FILE id="E4UYbQ" name="TabSetting.h" compile="0" resource="0" file="TabSetting.h"/>
+        <FILE id="ESP8fH" name="DraggableGraphController.cpp" compile="1" resource="0"
+              file="DraggableGraphController.cpp"/>
+        <FILE id="QXdKO5" name="DraggableGraphController.h" compile="0" resource="0"
+              file="DraggableGraphController.h"/>
+        <FILE id="jTbgoE" name="EquilizerGraph.cpp" compile="1" resource="0"
+              file="EquilizerGraph.cpp"/>
+        <FILE id="D6m40I" name="EquilizerGraph.h" compile="0" resource="0"
+              file="EquilizerGraph.h"/>
+        <FILE id="XYWkO8" name="DraggableVerticalLine.cpp" compile="1" resource="0"
+              file="DraggableVerticalLine.cpp"/>
+        <FILE id="IpMaqp" name="DraggableVerticalLine.h" compile="0" resource="0"
+              file="DraggableVerticalLine.h"/>
+        <FILE id="pMHR20" name="DraggableHorizontalLine.cpp" compile="1" resource="0"
+              file="DraggableHorizontalLine.cpp"/>
+        <FILE id="eSrmVd" name="DraggableHorizontalLine.h" compile="0" resource="0"
+              file="DraggableHorizontalLine.h"/>
+        <GROUP id="{13918C37-292B-1861-9274-193835B5CBAE}" name="Multi-Band Compressor">
+          <FILE id="IQSgAE" name="BypassComponent.cpp" compile="1" resource="0"
+                file="Source/BypassComponent.cpp"/>
+          <FILE id="zxrcoQ" name="BypassComponent.h" compile="0" resource="0"
+                file="Source/BypassComponent.h"/>
+          <FILE id="HWtvo7" name="ClipperComponent.cpp" compile="1" resource="0"
+                file="Source/ClipperComponent.cpp"/>
+          <FILE id="fiOZEw" name="ClipperComponent.h" compile="0" resource="0"
+                file="Source/ClipperComponent.h"/>
+          <FILE id="AP9kIw" name="CompressorComponent.cpp" compile="1" resource="0"
+                file="Source/CompressorComponent.cpp"/>
+          <FILE id="wHP8i3" name="CompressorComponent.h" compile="0" resource="0"
+                file="Source/CompressorComponent.h"/>
+          <FILE id="PqxF6V" name="W1LimiterComponent.cpp" compile="1" resource="0"
+                file="Source/W1LimiterComponent.cpp"/>
+          <FILE id="qNtrAM" name="W1LimiterComponent.h" compile="0" resource="0"
+                file="Source/W1LimiterComponent.h"/>
+        </GROUP>
+        <FILE id="HOhkhd" name="BongioviAccousticsLookAndFeel.h" compile="0"
+              resource="0" file="Source/BongioviAccousticsLookAndFeel.h"/>
+        <FILE id="RPFTpN" name="V3DHeadphoneSERoutingComponent.cpp" compile="1"
+              resource="0" file="Source/V3DHeadphoneSERoutingComponent.cpp"/>
+        <FILE id="QmjGSq" name="V3DHeadphoneSERoutingComponent.h" compile="0"
+              resource="0" file="Source/V3DHeadphoneSERoutingComponent.h"/>
+        <FILE id="h1UeGR" name="KaraokeSERoutingComponent.cpp" compile="1"
+              resource="0" file="Source/KaraokeSERoutingComponent.cpp"/>
+        <FILE id="mDB09c" name="KaraokeSERoutingComponent.h" compile="0" resource="0"
+              file="Source/KaraokeSERoutingComponent.h"/>
+        <FILE id="gvul6d" name="DynamicSESpecialEffectRoutingComponent.cpp"
+              compile="1" resource="0" file="Source/DynamicSESpecialEffectRoutingComponent.cpp"/>
+        <FILE id="S7AZvH" name="DynamicSESpecialEffectRoutingComponent.h" compile="0"
+              resource="0" file="Source/DynamicSESpecialEffectRoutingComponent.h"/>
+        <FILE id="o03OxH" name="BAGCRoutingComponent.cpp" compile="1" resource="0"
+              file="Source/BAGCRoutingComponent.cpp"/>
+        <FILE id="OW1WxI" name="BAGCRoutingComponent.h" compile="0" resource="0"
+              file="Source/BAGCRoutingComponent.h"/>
+        <FILE id="zABcd4" name="OutputRoutingComponent.cpp" compile="1" resource="0"
+              file="Source/OutputRoutingComponent.cpp"/>
+        <FILE id="KQcVvV" name="OutputRoutingComponent.h" compile="0" resource="0"
+              file="Source/OutputRoutingComponent.h"/>
+        <FILE id="T7ZQAN" name="UserApiRoutingComponent.cpp" compile="1" resource="0"
+              file="Source/UserApiRoutingComponent.cpp"/>
+        <FILE id="gvI8r9" name="UserApiRoutingComponent.h" compile="0" resource="0"
+              file="Source/UserApiRoutingComponent.h"/>
+        <FILE id="Fv0xb4" name="EQRoutingComponent.cpp" compile="1" resource="0"
+              file="Source/EQRoutingComponent.cpp"/>
+        <FILE id="OibR7X" name="EQRoutingComponent.h" compile="0" resource="0"
+              file="Source/EQRoutingComponent.h"/>
+        <FILE id="vQhu1M" name="InputRoutingComponent.cpp" compile="1" resource="0"
+              file="Source/InputRoutingComponent.cpp"/>
+        <FILE id="q1a9ui" name="InputRoutingComponent.h" compile="0" resource="0"
+              file="Source/InputRoutingComponent.h"/>
+        <FILE id="Jnnmc6" name="MultibandAgcRoutingComponent.cpp" compile="1"
+              resource="0" file="Source/MultibandAgcRoutingComponent.cpp"/>
+        <FILE id="qGuPKk" name="MultibandAgcRoutingComponent.h" compile="0"
+              resource="0" file="Source/MultibandAgcRoutingComponent.h"/>
+        <FILE id="Qc60TG" name="TabRouting.cpp" compile="1" resource="0" file="Source/TabRouting.cpp"/>
+        <FILE id="cOQ10B" name="TabRouting.h" compile="0" resource="0" file="Source/TabRouting.h"/>
+        <FILE id="ZevSaO" name="TabSettings.cpp" compile="1" resource="0" file="Source/TabSettings.cpp"/>
+        <FILE id="Xl7A56" name="TabSettings.h" compile="0" resource="0" file="Source/TabSettings.h"/>
+        <FILE id="AkPmOX" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/MainComponent.cpp"/>
+        <FILE id="hW8yfU" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+        <FILE id="UBt9BR" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      </GROUP>
+      <FILE id="NVEmVA" name="CacheImageData.cpp" compile="1" resource="0"
+            file="Source/CacheImageData.cpp"/>
+      <FILE id="pdbeRn" name="CacheImageData.h" compile="0" resource="0"
+            file="Source/CacheImageData.h"/>
+      <FILE id="mVEoCT" name="DpsAppSettings.cpp" compile="1" resource="0"
+            file="Source/DpsAppSettings.cpp"/>
+      <FILE id="lyV0Qt" name="DpsAppSettings.h" compile="0" resource="0"
+            file="Source/DpsAppSettings.h"/>
+      <FILE id="SDH1pa" name="DpsAudioProcessor.cpp" compile="1" resource="0"
+            file="Source/DpsAudioProcessor.cpp"/>
+      <FILE id="IvZw7t" name="DpsAudioProcessor.h" compile="0" resource="0"
+            file="Source/DpsAudioProcessor.h"/>
+      <FILE id="LDHAzM" name="EQCurve.cpp" compile="1" resource="0" file="Source/EQCurve.cpp"/>
+      <FILE id="e26fnv" name="EQCurve.h" compile="0" resource="0" file="Source/EQCurve.h"/>
+      <FILE id="DZIIzv" name="MainApplicationUI.cpp" compile="1" resource="0"
+            file="Source/MainApplicationUI.cpp"/>
+      <FILE id="C104if" name="MainApplicationUI.h" compile="0" resource="0"
+            file="Source/MainApplicationUI.h"/>
+      <FILE id="jcPESl" name="MediaFiles.cpp" compile="1" resource="0" file="Source/MediaFiles.cpp"/>
+      <FILE id="GqCzRI" name="MediaFiles.h" compile="0" resource="0" file="Source/MediaFiles.h"/>
+      <FILE id="tI1e38" name="PlatformApi.h" compile="0" resource="0" file="Source/PlatformApi.h"/>
+      <FILE id="E2sOQk" name="PlatformManager.cpp" compile="1" resource="0"
+            file="Source/PlatformManager.cpp"/>
+      <FILE id="BpKQ2L" name="PlatformManager.h" compile="0" resource="0"
+            file="Source/PlatformManager.h"/>
+      <FILE id="yNYmgS" name="Theme.cpp" compile="1" resource="0" file="Source/Theme.cpp"/>
+      <FILE id="TozJux" name="Theme.h" compile="0" resource="0" file="Source/Theme.h"/>
+    </GROUP>
+    <FILE id="voQrYR" name="SubWindow.h" compile="0" resource="0" file="Source/SubWindow.h"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="..\..\dps-core\Comm&#10;..\..\dps-core\DAW-plugins\JUCE\SDKs\ASIOSDK2.3\common&#10;..\..\Source"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="..\..\dps-core\Comm&#10;..\..\dps-core\DAW-plugins\JUCE\SDKs\ASIOSDK2.3\common&#10;..\..\Source"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../MyApps/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="..\..\dps-core\Comm&#10;..\..\dps-core\DAW-plugins\JUCE\SDKs\ASIOSDK2.3\common&#10;..\..\Source"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="..\..\dps-core\Comm&#10;..\..\dps-core\DAW-plugins\JUCE\SDKs\ASIOSDK2.3\common&#10;..\..\Source"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../MyApps/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_WASAPI_EXCLUSIVE="1" JUCE_ASIO="1"/>
+</JUCERPROJECT>
